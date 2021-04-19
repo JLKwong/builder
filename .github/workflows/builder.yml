@@ -8,7 +8,7 @@ jobs:
       - name: Create Directory
         run: |
           echo "Folgers in your cup."
-          apt install qemu-user-static g++-arm-linux-gnueabihf kpartx aria2 tree python3-requests
+          sudo apt install qemu-user-static g++-arm-linux-gnueabihf kpartx aria2 tree python3-requests
           #          ls -la
           #          cd .. && ls -la
           #          cd .. && ls -la
