@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: Create Directory
         run: |
           sudo apt install qemu-user-static g++-arm-linux-gnueabihf kpartx aria2 tree python3-requests
