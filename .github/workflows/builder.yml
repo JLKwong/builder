@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Create Directory
         run: |
-          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
+          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../builder --noninteractive && touch ../images/.gitkeep
