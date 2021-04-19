@@ -4,7 +4,8 @@ on:
 jobs:
   Build:
     runs-on: ubuntu-latest
-    #    steps:
-            #      - name: Create Directory
-        #        run: |
+    steps:
+      - name: Create Directory
+        run: |
+          echo "Folgers in your cup."
                 #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
