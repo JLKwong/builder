@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   Build:
-    runs-on: bionic-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Create Directory
         run: |
