@@ -13,4 +13,5 @@ jobs:
           pwd && cd .. && ls -la
           pwd && cd .. && ls -la
           pwd && cd .. && ls -la
+          tree
           #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
