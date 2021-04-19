@@ -8,4 +8,8 @@ jobs:
       - name: Create Directory
         run: |
           echo "Folgers in your cup."
-                #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
+          ls -la
+          cd .. && ls -la
+          cd .. && ls -la
+          cd .. && ls -la
+#          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
