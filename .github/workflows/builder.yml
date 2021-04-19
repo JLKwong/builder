@@ -9,8 +9,7 @@ jobs:
       - name: Create Directory
         run: |
           sudo apt install qemu-user-static g++-arm-linux-gnueabihf kpartx aria2 tree python3-requests
-          echo "Folgers in your cup."
-          pwd && ls -la
-          pwd && cd .. && ls -la
           tree
-          #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
+          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive
+          echo "Folgers in your cup."
+          #touch ../images/.gitkeep
