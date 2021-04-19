@@ -9,8 +9,8 @@ jobs:
         run: |
           sudo apt install qemu-user-static g++-arm-linux-gnueabihf kpartx aria2 tree python3-requests
           echo "Folgers in your cup."
-          #          ls -la
-          #          cd .. && ls -la
-          #          cd .. && ls -la
-          #          cd .. && ls -la
+          pwd && ls -la
+          pwd && cd .. && ls -la
+          pwd && cd .. && ls -la
+          pwd && cd .. && ls -la
           #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
