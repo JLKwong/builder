@@ -7,9 +7,14 @@ jobs:
     steps:
       - name: Create Directory
         run: |
-          echo "Folgers in your cup."
-          ls -la
-          cd .. && ls -la
-          cd .. && ls -la
-          cd .. && ls -la
-#          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
+#          echo "Folgers in your cup."
+          sudo apt-get install qemu-user-static g++-arm-linux-gnueabihf
+          sudo apt-get install kpartx
+          sudo apt-get install aria2
+          sudo apt-get install tree
+          sudo apt-get install python-requests
+          #          ls -la
+          #          cd .. && ls -la
+          #          cd .. && ls -la
+          #          cd .. && ls -la
+          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
