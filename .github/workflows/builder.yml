@@ -17,4 +17,4 @@ jobs:
           #          cd .. && ls -la
           #          cd .. && ls -la
           #          cd .. && ls -la
-          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
+          #          mkdir images && sudo PATH=./node_modules/.bin:$PATH ../../builder --noninteractive && touch ../images/.gitkeep
