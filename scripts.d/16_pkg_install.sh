@@ -13,11 +13,11 @@ INSTALL_PACKAGES=(
     dos2unix # for converting dos characters to unix in autorunonce
     nodejs # version 8.5.0-1nodesource1
     autossh
-    #python3-pip python3-dbus
+    python3-pip python3-dbus
     bluez minicom bluez-tools libbluetooth-dev # bluetooth hotspot
     avahi-autoipd # for usb0
     rng-tools # for ap bridge
-    tor=0.3.5.10-1 #TODO bring back to upstream
+    #tor=0.3.5.10-1 #TODO bring back to upstream
     openvpn
     shadowsocks-libev proxychains4 # socks5 proxy
     libpam-google-authenticator # two factor authentication
